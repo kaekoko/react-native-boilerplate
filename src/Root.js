@@ -9,7 +9,7 @@ import { imageAssets } from 'theme/images'
 import { fontAssets } from 'theme/fonts'
 import Navigator from './navigator'
 
-const App = () => {
+const Root = () => {
   const [didLoad, setDidLoad] = useState(false)
 
   // assets preloading
@@ -31,4 +31,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Root
